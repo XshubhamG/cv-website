@@ -4,7 +4,6 @@ import {
   BiLogoGoLang,
   BiLogoHtml5,
   BiLogoJavascript,
-  BiLogoPostgresql,
   BiLogoReact,
   BiLogoTailwindCss,
   BiRocket,
@@ -64,8 +63,9 @@ const Home = () => {
                 </p>
               </li>
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
-                <span className="font-semibold md:text-lg"></span>
-                <span className="font-light">Todo App using Vanilla JS</span>
+                <span className="font-semibold md:text-lg">
+                  Todo App using Vanilla JS
+                </span>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   The To-Do App is a simple and interactive web application
                   created using HTML, CSS, and JavaScript. The app enables users
@@ -75,10 +75,13 @@ const Home = () => {
                   look, and enhanced with JavaScript for dynamic functionality.
                 </p>
               </li>
+
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
-                <span className="font-semibold md:text-lg">
-                  CV website using react
-                </span>
+                <a href="https://nerd-cv.netlify.app/">
+                  <span className="font-semibold md:text-lg">
+                    CV website using react
+                  </span>
+                </a>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   The CV Website project is a sleek and responsive web
                   application built using React to showcase an individual’s
@@ -125,10 +128,6 @@ const Home = () => {
             <span className="rounded-xl flex items-center justify-center gap-2 bg-black text-white p-3 dark:bg-white dark:text-black">
               <BiLogoGoLang />
               Golang
-            </span>
-            <span className="rounded-xl flex items-center justify-center gap-2 bg-black text-white p-3 dark:bg-white dark:text-black">
-              <BiLogoPostgresql />
-              PostgreSQL
             </span>
             <span className="rounded-xl flex items-center justify-center gap-2 bg-black text-white p-3 dark:bg-white dark:text-black">
               <BiLogoFirebase />
